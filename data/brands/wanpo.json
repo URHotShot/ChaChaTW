@@ -1,0 +1,86 @@
+{
+  "_todo": "根據使用者提供的官方菜單看板照片（北部價）逐項謄打。原本用第三方彙整網站資料建的版本已經整個換掉，這份可信度高很多。小字辨識仍有誤讀風險，請特別覆核標記 _verify 的品項。菜單上「可換基底」「可換配料」的客製化選項（例如 白柚烏龍 可換紅茶/青茶基底）沒有存進資料庫，schema 目前不支援品項客製化選項，只存了預設款的價格。中南部價格未知，之後若要支援需另外取得資料補進 region='中南部' 的 prices 列。",
+  "name": "萬波島嶼紅茶",
+  "slug": "wanpo",
+  "official_url": "https://wanpotea.com/",
+  "description": "源自眷村古早味的台灣連鎖手搖飲品牌，招牌品項為楊枝甘露、島嶼紅茶。",
+  "region": "北部",
+  "categories": [
+    {
+      "name": "品茗精選",
+      "products": [
+        { "name": "島嶼紅茶", "normalized_name": "島嶼紅茶", "variants": [{ "size": "M", "price": 30 }, { "size": "L", "price": 35 }] },
+        { "name": "宣橋綠茶", "normalized_name": "宣橋綠茶", "variants": [{ "size": "M", "price": 30 }, { "size": "L", "price": 35 }] },
+        { "name": "麗雅烏龍", "normalized_name": "麗雅烏龍", "variants": [{ "size": "M", "price": 30 }, { "size": "L", "price": 35 }] },
+        { "name": "金萱青茶", "normalized_name": "金萱青茶", "variants": [{ "size": "M", "price": 35 }, { "size": "L", "price": 40 }] },
+        { "name": "鐵觀音", "normalized_name": "鐵觀音", "variants": [{ "size": "M", "price": 30 }, { "size": "L", "price": 35 }] },
+        { "name": "纖麥茶", "normalized_name": "纖麥茶", "variants": [{ "size": "M", "price": 30 }, { "size": "L", "price": 35 }] }
+      ]
+    },
+    {
+      "name": "手路調飲",
+      "products": [
+        { "name": "蜂蜜金萱", "normalized_name": "蜂蜜金萱", "variants": [{ "size": "M", "price": 45 }, { "size": "L", "price": 55 }] },
+        { "name": "金萱珍波粉", "normalized_name": "金萱珍波粉", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 55 }] },
+        { "name": "金牌愛玉檸檬", "normalized_name": "金牌愛玉檸檬", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 60 }] },
+        { "name": "冬瓜金萱青", "normalized_name": "冬瓜金萱青", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 50 }] },
+        { "name": "愛玉酸梅冰", "normalized_name": "愛玉酸梅冰", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 60 }] },
+        { "name": "杏花雨露", "normalized_name": "杏花雨露", "_verify": "圖片上此列只看到一個價格數字，信心不高，請核對是否為單一規格", "variants": [{ "size": "M", "price": 60 }] },
+        { "name": "奶蓋紅茶", "normalized_name": "奶蓋紅茶", "_verify": "圖片上此列只看到一個價格數字，信心不高，請核對是否為單一規格", "variants": [{ "size": "M", "price": 60 }] }
+      ]
+    },
+    {
+      "name": "鮮萃果香",
+      "products": [
+        { "name": "島嶼檸檬茶王", "normalized_name": "島嶼檸檬茶王", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 60 }] },
+        { "name": "白柚烏龍", "normalized_name": "白柚烏龍", "variants": [{ "size": "M", "price": 65 }, { "size": "L", "price": 75 }] },
+        { "name": "梨仔紅", "normalized_name": "梨仔紅", "variants": [{ "size": "M", "price": 55 }, { "size": "L", "price": 65 }] },
+        { "name": "紅蘋島嶼", "normalized_name": "紅蘋島嶼", "variants": [{ "size": "M", "price": 55 }, { "size": "L", "price": 65 }] },
+        { "name": "埔里甘蔗青", "normalized_name": "埔里甘蔗青", "variants": [{ "size": "M", "price": 55 }, { "size": "L", "price": 65 }] },
+        { "name": "翠涎香檸綠", "normalized_name": "翠涎香檸綠", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 60 }] },
+        { "name": "大青梅果綠", "normalized_name": "大青梅果綠", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 60 }] },
+        { "name": "蔗香煙燻烏梅", "normalized_name": "蔗香煙燻烏梅", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 60 }] }
+      ]
+    },
+    {
+      "name": "醇濃奶香",
+      "products": [
+        { "name": "萬波奶茶", "normalized_name": "萬波奶茶", "variants": [{ "size": "M", "price": 45 }, { "size": "L", "price": 55 }] },
+        { "name": "鐵觀音奶茶", "normalized_name": "鐵觀音奶茶", "variants": [{ "size": "M", "price": 45 }, { "size": "L", "price": 55 }] },
+        { "name": "波霸奶茶", "normalized_name": "波霸奶茶", "variants": [{ "size": "M", "price": 55 }, { "size": "L", "price": 65 }] },
+        { "name": "宣橋奶綠", "normalized_name": "宣橋奶綠", "variants": [{ "size": "M", "price": 45 }, { "size": "L", "price": 55 }] }
+      ]
+    },
+    {
+      "name": "鮮奶茶",
+      "products": [
+        { "name": "蘭葉那堤", "normalized_name": "蘭葉那堤", "variants": [{ "size": "M", "price": 60 }, { "size": "L", "price": 70 }] },
+        { "name": "鐵觀音那堤", "normalized_name": "鐵觀音那堤", "variants": [{ "size": "M", "price": 60 }, { "size": "L", "price": 70 }] }
+      ]
+    },
+    {
+      "name": "無咖啡因",
+      "products": [
+        { "name": "永良冬瓜露", "normalized_name": "永良冬瓜露", "variants": [{ "size": "M", "price": 30 }, { "size": "L", "price": 40 }] },
+        { "name": "冬瓜檸檬", "normalized_name": "冬瓜檸檬", "variants": [{ "size": "M", "price": 45 }, { "size": "L", "price": 55 }] },
+        { "name": "甘蔗檸檬", "normalized_name": "甘蔗檸檬", "variants": [{ "size": "M", "price": 55 }, { "size": "L", "price": 65 }] },
+        { "name": "紅豆粉粿鮮奶", "normalized_name": "紅豆粉粿鮮奶", "variants": [{ "size": "M", "price": 65 }, { "size": "L", "price": 80 }] },
+        { "name": "麥仔冬瓜露", "normalized_name": "麥仔冬瓜露", "variants": [{ "size": "M", "price": 45 }, { "size": "L", "price": 50 }] },
+        { "name": "麥仔奶茶", "normalized_name": "麥仔奶茶", "variants": [{ "size": "M", "price": 45 }, { "size": "L", "price": 55 }] },
+        { "name": "麥仔那堤", "normalized_name": "麥仔那堤", "variants": [{ "size": "M", "price": 55 }, { "size": "L", "price": 65 }] },
+        { "name": "麥仔蜜檸檬", "normalized_name": "麥仔蜜檸檬", "variants": [{ "size": "M", "price": 55 }, { "size": "L", "price": 65 }] }
+      ]
+    },
+    {
+      "name": "季節限定",
+      "products": [
+        { "name": "仙草甘茶", "normalized_name": "仙草甘茶", "is_seasonal": true, "variants": [{ "size": "M", "price": 30 }, { "size": "L", "price": 40 }] },
+        { "name": "嫩仙草奶茶", "normalized_name": "嫩仙草奶茶", "is_seasonal": true, "variants": [{ "size": "M", "price": 55 }, { "size": "L", "price": 65 }] },
+        { "name": "超級仙草甘", "normalized_name": "超級仙草甘", "is_seasonal": true, "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 50 }] },
+        { "name": "愛玉紫蘇檸檬奇亞籽", "normalized_name": "愛玉紫蘇檸檬奇亞籽", "is_seasonal": true, "variants": [{ "size": "M", "price": 55 }, { "size": "L", "price": 65 }] },
+        { "name": "紫蘇金萱", "normalized_name": "紫蘇金萱", "is_seasonal": true, "variants": [{ "size": "M", "price": 45 }, { "size": "L", "price": 55 }] },
+        { "name": "芒果冰沙", "normalized_name": "芒果冰沙", "is_seasonal": true, "variants": [{ "size": "M", "price": 80 }, { "size": "L", "price": 90 }] }
+      ]
+    }
+  ]
+}

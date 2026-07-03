@@ -1,0 +1,100 @@
+{
+  "_todo": "根據使用者提供的官方菜單看板照片逐項謄打，價格應可信。但小字照片辨識仍有誤讀風險，請特別覆核標記 _verify 的品項，並補上目前缺漏的：椰果/波霸類的完整口味組合、加料（珍珠、椰果、波霸、燕麥、布丁、冰淇淋等）的加價金額（toppings 表尚未填）、以及甜度/冰量選項（目前 schema 未支援，屬於下單時的客製選項，非固定品項價格）。",
+  "name": "50嵐",
+  "slug": "50lan",
+  "official_url": "https://50lan.com",
+  "description": "好茶陪伴你的日常。台灣連鎖手搖飲品牌，經典款包括四季春、珍珠奶茶。",
+  "categories": [
+    {
+      "name": "找好茶",
+      "products": [
+        { "name": "茉莉綠茶", "normalized_name": "茉莉綠茶", "variants": [{ "size": "M", "price": 30 }, { "size": "L", "price": 35 }] },
+        { "name": "阿薩姆紅茶", "normalized_name": "阿薩姆紅茶", "variants": [{ "size": "M", "price": 30 }, { "size": "L", "price": 35 }] },
+        { "name": "四季春青茶", "normalized_name": "四季春青茶", "variants": [{ "size": "M", "price": 30 }, { "size": "L", "price": 35 }] },
+        { "name": "黃金烏龍", "normalized_name": "黃金烏龍", "variants": [{ "size": "M", "price": 30 }, { "size": "L", "price": 35 }] },
+        { "name": "椰果紅茶", "normalized_name": "椰果紅茶", "variants": [{ "size": "M", "price": 35 }, { "size": "L", "price": 45 }] },
+        { "name": "椰果綠茶", "normalized_name": "椰果綠茶", "variants": [{ "size": "M", "price": 35 }, { "size": "L", "price": 45 }] },
+        { "name": "波霸紅茶", "normalized_name": "波霸紅茶", "variants": [{ "size": "M", "price": 35 }, { "size": "L", "price": 45 }] },
+        { "name": "波霸綠茶", "normalized_name": "波霸綠茶", "variants": [{ "size": "M", "price": 35 }, { "size": "L", "price": 45 }] },
+        { "name": "燕麥紅茶", "normalized_name": "燕麥紅茶", "variants": [{ "size": "M", "price": 35 }, { "size": "L", "price": 45 }] },
+        { "name": "燕麥青茶", "normalized_name": "燕麥青茶", "variants": [{ "size": "M", "price": 35 }, { "size": "L", "price": 45 }] },
+        { "name": "微檸檬紅茶", "normalized_name": "微檸檬紅茶", "variants": [{ "size": "M", "price": 35 }, { "size": "L", "price": 45 }] },
+        { "name": "微檸檬青茶", "normalized_name": "微檸檬青茶", "variants": [{ "size": "M", "price": 35 }, { "size": "L", "price": 45 }] },
+        { "name": "檸檬綠茶", "normalized_name": "檸檬綠茶", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "檸檬青茶", "normalized_name": "檸檬青茶", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "梅の綠", "normalized_name": "梅の綠", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "8冰綠", "normalized_name": "8冰綠", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "情人茶", "normalized_name": "情人茶", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "柚子紅茶", "normalized_name": "柚子紅茶", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "柚子綠茶", "normalized_name": "柚子綠茶", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "柚子青茶", "normalized_name": "柚子青茶", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "柚子烏龍", "normalized_name": "柚子烏龍", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "冰淇淋紅茶", "normalized_name": "冰淇淋紅茶", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "多多綠茶", "normalized_name": "多多綠茶", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "多多紅茶", "normalized_name": "多多紅茶", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "多多檸檬綠", "normalized_name": "多多檸檬綠", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 65 }] }
+      ]
+    },
+    {
+      "name": "找奶茶",
+      "products": [
+        { "name": "奶茶", "normalized_name": "奶茶", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "奶綠", "normalized_name": "奶綠", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "烏龍奶", "normalized_name": "烏龍奶", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "椰果奶茶", "normalized_name": "椰果奶茶", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "波霸奶茶", "normalized_name": "波霸奶茶", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "波霸奶綠", "normalized_name": "波霸奶綠", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "燕麥奶茶", "normalized_name": "燕麥奶茶", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "燕麥奶綠", "normalized_name": "燕麥奶綠", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "燕麥烏龍奶", "normalized_name": "燕麥烏龍奶", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "布丁奶茶", "normalized_name": "布丁奶茶", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 65 }] },
+        { "name": "冰淇淋奶茶", "normalized_name": "冰淇淋奶茶", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 65 }] },
+        { "name": "紅茶瑪奇朵", "normalized_name": "紅茶瑪奇朵", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "青茶瑪奇朵", "normalized_name": "青茶瑪奇朵", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "阿華田", "normalized_name": "阿華田", "variants": [{ "size": "M", "price": 45 }, { "size": "L", "price": 60 }] },
+        { "name": "燕麥阿華田", "normalized_name": "燕麥阿華田", "variants": [{ "size": "M", "price": 45 }, { "size": "L", "price": 60 }] },
+        { "name": "可可芭蕾", "normalized_name": "可可芭蕾", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 65 }] }
+      ]
+    },
+    {
+      "name": "找拿鐵",
+      "products": [
+        { "name": "紅茶拿鐵", "normalized_name": "紅茶拿鐵", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 65 }] },
+        { "name": "綠茶拿鐵", "normalized_name": "綠茶拿鐵", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 65 }] },
+        { "name": "烏龍拿鐵", "normalized_name": "烏龍拿鐵", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 65 }] },
+        { "name": "珍珠紅茶拿鐵", "normalized_name": "珍珠紅茶拿鐵", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 65 }] },
+        { "name": "波霸紅茶拿鐵", "normalized_name": "波霸紅茶拿鐵", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 65 }] },
+        { "name": "燕麥紅茶拿鐵", "normalized_name": "燕麥紅茶拿鐵", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 65 }] },
+        { "name": "布丁紅茶拿鐵", "normalized_name": "布丁紅茶拿鐵", "variants": [{ "size": "M", "price": 55 }, { "size": "L", "price": 75 }] },
+        { "name": "冰淇淋紅茶拿鐵", "normalized_name": "冰淇淋紅茶拿鐵", "variants": [{ "size": "M", "price": 55 }, { "size": "L", "price": 75 }] },
+        { "name": "阿華田拿鐵", "normalized_name": "阿華田拿鐵", "variants": [{ "size": "M", "price": 55 }, { "size": "L", "price": 75 }] },
+        { "name": "燕麥阿華田拿鐵", "normalized_name": "燕麥阿華田拿鐵", "variants": [{ "size": "M", "price": 55 }, { "size": "L", "price": 75 }] },
+        { "name": "可可芭蕾拿鐵", "normalized_name": "可可芭蕾拿鐵", "variants": [{ "size": "M", "price": 55 }, { "size": "L", "price": 75 }] }
+      ]
+    },
+    {
+      "name": "找新鮮",
+      "products": [
+        { "name": "柚子汁", "normalized_name": "柚子汁", "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "8冰茶", "normalized_name": "8冰茶", "_verify": "照片小字辨識信心較低，請核對正確品名與價格", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 65 }] },
+        { "name": "檸檬汁", "normalized_name": "檸檬汁", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 65 }] },
+        { "name": "金桔檸檬", "normalized_name": "金桔檸檬", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 65 }] },
+        { "name": "檸檬梅汁", "normalized_name": "檸檬梅汁", "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 65 }] },
+        { "name": "檸檬多多", "normalized_name": "檸檬多多", "variants": [{ "size": "M", "price": 55 }, { "size": "L", "price": 75 }] }
+      ]
+    },
+    {
+      "name": "季節限定",
+      "products": [
+        { "name": "蜂蜜紅茶", "normalized_name": "蜂蜜紅茶", "is_seasonal": true, "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "蜂蜜綠茶", "normalized_name": "蜂蜜綠茶", "is_seasonal": true, "variants": [{ "size": "M", "price": 40 }, { "size": "L", "price": 55 }] },
+        { "name": "蜂蜜奶茶", "normalized_name": "蜂蜜奶茶", "is_seasonal": true, "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 65 }] },
+        { "name": "鮮柚綠茶", "normalized_name": "鮮柚綠茶", "is_seasonal": true, "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 65 }] },
+        { "name": "葡萄柚汁", "normalized_name": "葡萄柚汁", "is_seasonal": true, "variants": [{ "size": "M", "price": 50 }, { "size": "L", "price": 65 }] },
+        { "name": "葡萄柚多多", "normalized_name": "葡萄柚多多", "is_seasonal": true, "variants": [{ "size": "M", "price": 55 }, { "size": "L", "price": 75 }] },
+        { "name": "檸檬蜂蜜", "normalized_name": "檸檬蜂蜜", "is_seasonal": true, "variants": [{ "size": "M", "price": 55 }, { "size": "L", "price": 75 }] },
+        { "name": "金桔檸檬蜜", "normalized_name": "金桔檸檬蜜", "is_seasonal": true, "variants": [{ "size": "M", "price": 55 }, { "size": "L", "price": 75 }] }
+      ]
+    }
+  ]
+}
